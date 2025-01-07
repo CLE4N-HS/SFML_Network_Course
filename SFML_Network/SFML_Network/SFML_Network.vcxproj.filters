@@ -13,10 +13,78 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\TOOLS">
+      <UniqueIdentifier>{235d98b5-c1a0-4b21-8053-07ca44da0b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TOOLS">
+      <UniqueIdentifier>{e1093025-b4d7-4ae6-8d51-caed9266013b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NETWORK">
+      <UniqueIdentifier>{e49a4510-81b7-44fb-ba39-ca6d964600b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NETWORK">
+      <UniqueIdentifier>{641604c0-3687-47af-8b6e-3ae9c5a0d3b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="Master.cpp">
+      <Filter>Fichiers sources\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseManager.cpp">
+      <Filter>Fichiers sources\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Fichiers sources\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Fichiers sources\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Fichiers sources\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Fichiers sources\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Fichiers sources\NETWORK</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Fichiers sources\NETWORK</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Master.h">
+      <Filter>Fichiers d%27en-tête\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseManager.h">
+      <Filter>Fichiers d%27en-tête\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Fichiers d%27en-tête\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Fichiers d%27en-tête\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Fichiers d%27en-tête\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Fichiers d%27en-tête\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Fichiers d%27en-tête\NETWORK</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Fichiers d%27en-tête\NETWORK</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
